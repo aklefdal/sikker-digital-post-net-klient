@@ -38,7 +38,6 @@ namespace Difi.SikkerDigitalPost.Klient.Domene.Entiteter.Post
             MpcId = mpcId;
             KonversasjonsId = konversasjonsId == default(Guid) ? Guid.NewGuid() : konversasjonsId;
         }
-
         /// <param name="avsender">Ansvarlig avsender av forsendelsen. Dette vil i de aller fleste tilfeller være den offentlige virksomheten som er ansvarlig for brevet som skal sendes.</param>
         /// <param name="postInfo">Informasjon som brukes av postkasseleverandør for å behandle den digitale posten.</param>
         /// <param name="dokumentpakke">Pakke med hoveddokument og ev. vedlegg som skal sendes.</param>
